@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntimeLinked",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/da473a1f-209d-4e13-8ef9-c71173739957/resourcegroups/dataEngineeringProject01/providers/Microsoft.DataFactory/factories/DataEngineeringCricketADF/integrationruntimes/SRintegrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
