@@ -1,0 +1,2 @@
+df=df.withColumn("home_team",trim(split(df.match,"vs")[0])).withColumn("away_team",trim(split(df.match,"vs")[1])).drop(df.match)
+
