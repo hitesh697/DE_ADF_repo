@@ -1,0 +1,90 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "t20_data.parquet",
+				"folderPath": "dbo/t20_data",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "sno",
+				"type": "INT32"
+			},
+			{
+				"name": "Player",
+				"type": "UTF8"
+			},
+			{
+				"name": "Span",
+				"type": "UTF8"
+			},
+			{
+				"name": "Mat",
+				"type": "INT32"
+			},
+			{
+				"name": "Inns",
+				"type": "INT32"
+			},
+			{
+				"name": "NO",
+				"type": "INT32"
+			},
+			{
+				"name": "Runs",
+				"type": "INT32"
+			},
+			{
+				"name": "HS",
+				"type": "UTF8"
+			},
+			{
+				"name": "Ave",
+				"type": "DOUBLE"
+			},
+			{
+				"name": "BF",
+				"type": "INT32"
+			},
+			{
+				"name": "SR",
+				"type": "DOUBLE"
+			},
+			{
+				"name": "_100",
+				"type": "INT32"
+			},
+			{
+				"name": "_50",
+				"type": "INT32"
+			},
+			{
+				"name": "_0",
+				"type": "INT32"
+			},
+			{
+				"name": "_4s",
+				"type": "INT32"
+			},
+			{
+				"name": "_6s",
+				"type": "INT32"
+			},
+			{
+				"name": "Unnamed_15",
+				"type": "UTF8"
+			}
+		]
+	}
+}
