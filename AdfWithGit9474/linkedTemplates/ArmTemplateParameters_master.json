@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AdfWithGit9474"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sadataengineering01.dfs.core.windows.net/"
+		},
+		"integrationRuntimeLinked_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/da473a1f-209d-4e13-8ef9-c71173739957/resourcegroups/dataEngineeringProject01/providers/Microsoft.DataFactory/factories/DataEngineeringCricketADF/integrationruntimes/SRintegrationRuntime1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
